@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <h1>Hello my Site</h1>
+    <div class="item-box" th:each="item : ${items}">
+        <img src="https://placeholder.com/300.jpg" alt="temp image">
+        <div>
+            <h3><a th:text="${item.getName()}">item_name</a></h3>
+            <p th:text="${item.getPassword()}">item_password</p>
+        </div>
+    </div>
+
+</body>
+</html>
