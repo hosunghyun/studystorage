@@ -34,13 +34,17 @@ public class BIgNum {
                     break;  // m이 0이라면 반복문 탈출
                 }
                 result += first;
+                System.out.print("반복문 안 : " + result);
                 m--;
+                System.out.println("반복문 안 : " + m);
             }
             if(m == 0) {
                 break;
             }
             result += second;
+            System.out.print("반복문 밖 : " + result);
             m--;
+            System.out.println("반복문 밖 : " + m);
         }
 
         System.out.println(result);
