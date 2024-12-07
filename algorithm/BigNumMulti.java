@@ -14,6 +14,6 @@ class Multi {
 
 public class BigNumMulti {
     public static void main(String[] args) {
-        
+        Multi multi = new Multi();
     }
 }
