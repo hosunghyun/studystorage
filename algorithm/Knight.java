@@ -16,6 +16,7 @@ public class Knight {
         };
 
         int result = 0;
+        
         // 가능한 이동 경로 계산
         for (int[] step : steps) {
             int nextRow = row + step[0];
