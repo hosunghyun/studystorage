@@ -21,6 +21,7 @@ public class Knight {
         for (int[] step : steps) {
             int nextRow = row + step[0];
             int nextColumn = column + step[1];
+            
             // 유효한 위치인지 체크
             if (nextRow >= 1 && nextRow <= 8 && nextColumn >= 1 && nextColumn <= 8) {
                 result++;
