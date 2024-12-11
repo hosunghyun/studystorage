@@ -37,5 +37,6 @@ public class LRUD {
             y = ny;
         }
         System.out.println(x + " " + y);
+        scr.close();
     }
 }
