@@ -21,6 +21,7 @@ class Dijkstra {
         int n = graph.size();
         int[] distances = new int[n];
         boolean[] visited = new boolean[n];
+        
         Arrays.fill(distances, Integer.MAX_VALUE); // 모든 거리를 무한대로 초기화
         distances[start] = 0;
 
