@@ -37,6 +37,7 @@ class Dijkstra {
 
             for (Node neighbor : graph.get(currentVertex)) {
                 int newDist = distances[currentVertex] + neighbor.cost;
+                
                 if (newDist < distances[neighbor.vertex]) {
                     distances[neighbor.vertex] = newDist;
                     pq.add(new Node(neighbor.vertex, newDist));
