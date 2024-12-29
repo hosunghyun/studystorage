@@ -69,6 +69,7 @@ class Dijkstra {
         int[] distances = dijkstra(graph, start);
 
         System.out.println("최단 거리 결과:");
+        
         for (int i = 0; i < distances.length; i++) {
             System.out.println("노드 " + i + "까지의 거리: " + distances[i]);
         }
