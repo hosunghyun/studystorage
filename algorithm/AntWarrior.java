@@ -5,8 +5,10 @@ public class AntWarrior {
         Scanner scr = new Scanner(System.in);
         // 정수 N을 입력받기
         int n = scr.nextInt();
+
         // 개행 문자 처리
         scr.nextLine();
+        
         // 모든 식량 정보 입력받기
         String[] array = scr.nextLine().split(" ");
 
