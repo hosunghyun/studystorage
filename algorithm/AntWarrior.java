@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class AntWarrior {
     public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
+        
         // 정수 N을 입력받기
         int n = scr.nextInt();
 
