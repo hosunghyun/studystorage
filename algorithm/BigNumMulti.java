@@ -6,6 +6,7 @@ class Multi {
         int n, m;
 
         n = String.valueOf(u).length() + String.valueOf(v).length();
+        
         if(u == 0 || v == 0) {
             return 0;
         }
