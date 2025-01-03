@@ -7,6 +7,7 @@ class BinarySearchs {
 
         while (low <= high) {
             int mid = (low + high) / 2;  // 중간값 계산 (mid 선언 시 타입을 명시)
+            
             if (S[mid] == F) {
                 return mid;  // 목표 값이 일치하면 인덱스 반환
             }
