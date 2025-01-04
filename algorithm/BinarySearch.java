@@ -26,6 +26,7 @@ class BinarySearchs {
 public class BinarySearch {
     public static void main(String[] args) {
         BinarySearchs binarySearch = new BinarySearchs();
+        
         int[] S = new int[] {5, 7, 8, 10, 11, 13};  // 정렬된 배열 S
         int F = 8;  // 찾을 값
 
