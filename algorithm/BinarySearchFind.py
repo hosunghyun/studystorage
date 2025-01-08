@@ -30,6 +30,7 @@ x = list(map(int, input().split()))
 for i in x:
     # 해당 부품이 존재하는지 확인
     result = binary_search(array, i, 0, n - 1)
+    
     if result != None:
         print('yes', end=' ')
     else:
