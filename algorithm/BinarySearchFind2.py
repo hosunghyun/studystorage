@@ -8,6 +8,7 @@ for i in input().split():
 
 # M(손님이 확인 요청한 부품 개수)을 입력받기
 m = int(input())
+
 # 손님이 확인 요청한 전체 부품 번호를 공백으로 구분하여 입력
 x = list(map(int, input().split()))
 
