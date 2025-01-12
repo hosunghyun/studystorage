@@ -24,6 +24,7 @@ class Recursion {
 public class BinarySearchRecursion {
     public static void main(String[] args) {
         Recursion recursion = new Recursion();
+        
         int[] S = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};    // 배열 S
         int x = 5;  // 찾으려는 값 x
         
