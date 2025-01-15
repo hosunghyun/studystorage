@@ -2,6 +2,7 @@ public class BubbleSort{
     public static void main(String[] args) {
         int[] arr = new int[] {7, 2, 0, 1, 5, 6, 4};
         System.out.println("정렬 전 배열");
+        
        	for(int i : arr) {
             System.out.print(i + " ");
         }
