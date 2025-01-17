@@ -8,6 +8,7 @@ public class CardGame {
             {7, 3, 1, 8},
             {3, 3, 3, 4}
         };
+        
         int result = 0;
 
         for (int[] s : cards) {
