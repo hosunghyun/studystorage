@@ -50,6 +50,7 @@ class Dijkstra {
 
     public static void main(String[] args) {
         int n = 6; // 노드 수
+        
         List<List<Node>> graph = new ArrayList<>();
         
         for (int i = 0; i < n; i++) {
