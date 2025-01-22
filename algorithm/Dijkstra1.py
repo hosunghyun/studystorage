@@ -42,6 +42,7 @@ def dijkstra(start):
         # 현재 최단 거리가 가장 짧은 노드를 꺼내서 방문 처리
         now = get_smallest_node()
         visited[now] = True
+        
         # 현재 노드와 연결된 다른 노드를 확인
         for j in graph[now]:
             cost = distance[now] + j[1]
