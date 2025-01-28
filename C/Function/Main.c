@@ -2,6 +2,7 @@
 
 void myFunction() {
     printf("Hello world\n");
+
 }
 void myFunction2(int n) {
     printf("second function\n 매개변수 : %d\n", n);
