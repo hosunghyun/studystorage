@@ -18,6 +18,7 @@ class FibonacciSequences {
         } else if (n == 1) {
             return 1;
         }
+        
         int prev = 0;  // 이전 피보나치 수
         int curr = 1;  // 현재 피보나치 수
         for (int i = 2; i <= n; i++) {  // n번째 피보나치 수를 계산
