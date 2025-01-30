@@ -21,6 +21,7 @@ class FibonacciSequences {
         
         int prev = 0;  // 이전 피보나치 수
         int curr = 1;  // 현재 피보나치 수
+        
         for (int i = 2; i <= n; i++) {  // n번째 피보나치 수를 계산
             int next = prev + curr;  // 다음 피보나치 수
             prev = curr;  // prev를 현재 값으로 갱신
