@@ -27,6 +27,7 @@ class FibonacciSequences {
             prev = curr;  // prev를 현재 값으로 갱신
             curr = next;  // curr를 다음 값으로 갱신
         }
+        
         return curr;  // 최종적으로 n번째 피보나치 수 반환
     }
 }
