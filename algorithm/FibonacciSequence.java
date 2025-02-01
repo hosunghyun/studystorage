@@ -43,6 +43,7 @@ public class FibonacciSequence {
         
         // 반복문 방식으로 계산
         location = fibonacciSequences.Iterative(F);
+        
         System.out.println("반복문 방식 결과: " + location);
     }
 }
