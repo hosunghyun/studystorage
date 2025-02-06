@@ -8,6 +8,7 @@ public class Greedy {
             count += amount / coin;
             amount %= coin;
         }
+        
         System.out.println("최소 동전의 개수 : " + count);
     }
 }
