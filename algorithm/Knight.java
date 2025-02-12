@@ -7,7 +7,6 @@ public class Knight {
 
         // 사용자 입력 받기
         String inputData = scanner.nextLine();
-        
         int row = Integer.parseInt(inputData.substring(1));
         int column = inputData.charAt(0) - 'a' + 1;
 
