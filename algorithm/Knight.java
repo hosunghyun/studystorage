@@ -30,6 +30,7 @@ public class Knight {
 
         // 결과 출력
         System.out.println(result);
+        
         scr.close();
     }
 }
