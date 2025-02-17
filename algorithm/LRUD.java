@@ -8,6 +8,7 @@ public class LRUD {
 
         System.err.print("지도 크기 N : ");
         int N = scr.nextInt();
+        
         scr.nextLine();
         
         System.out.print("이동 계획 : ");
