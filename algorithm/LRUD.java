@@ -12,6 +12,7 @@ public class LRUD {
         scr.nextLine();
         
         System.out.print("이동 계획 : ");
+        
         String moves = scr.nextLine();
         String[] move = moves.split(" ");
 
