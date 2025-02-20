@@ -18,8 +18,10 @@ public class LRUD {
 
         int x = 1;
         int y = 1;
+
         int[] dx = { 0, 0, -1, 1};
         int[] dy = { -1, 1, 0, 0};
+        
         int nx = 0, ny = 0;
 
         String[] move_type = {"L", "R", "U", "D"};
