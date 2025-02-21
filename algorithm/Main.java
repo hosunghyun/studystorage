@@ -8,6 +8,7 @@ class FibonacciSequences {
         else if (n == 1) {
             return 1;
         }
+        
         return fibonaccisequence(n - 1) + fibonaccisequence(n - 2);
     }
 }
