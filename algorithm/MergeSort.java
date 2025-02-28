@@ -10,6 +10,7 @@ class Merge {
 
         // 2. 배열을 두 부분으로 나눔
         int mid = S.length / 2;
+        
         // 배열을 절반으로 나누기
         int[] left = Arrays.copyOfRange(S, 0, mid);
         int[] right = Arrays.copyOfRange(S, mid, S.length);
