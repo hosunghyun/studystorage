@@ -30,7 +30,8 @@ class Merge {
         while (i < left.length && j < right.length) {
             if (left[i] <= right[j]) {
                 S[k++] = left[i++];
-            } else {
+            } 
+            else {
                 S[k++] = right[j++];
             }
         }
