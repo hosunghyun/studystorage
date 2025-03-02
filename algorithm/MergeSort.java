@@ -52,6 +52,7 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] S = new int[] { 10, 12, 20, 27, 13, 9, 22, 25 };
         Merge merge = new Merge();
+        
         merge.sort(S);
         System.out.print("합병 정렬 : ");
         for (int s : S) {
