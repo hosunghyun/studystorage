@@ -56,6 +56,7 @@ public class MergeSort {
         merge.sort(S);
 
         System.out.print("합병 정렬 : ");
+        
         for (int s : S) {
             System.out.print(s + " ");
         }
