@@ -30,7 +30,8 @@ class MergeSort {
             if (array[i] <= array[j]) {
                 temp[k] = array[i];
                 i++;
-            } else {
+            } 
+            else {
                 temp[k] = array[j];
                 j++;
             }
