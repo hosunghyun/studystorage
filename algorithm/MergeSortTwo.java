@@ -63,6 +63,7 @@ public class MergeSortTwo {
     public static void main(String[] args) {
         int[] S = new int[] { 10, 12, 20, 27, 13, 9, 22, 25 };
         MergeSort merge = new MergeSort();
+        
         // 배열 인덱스 범위를 올바르게 지정 (0부터 7까지)
         merge.mergesort(S, 0, (S.length - 1));
         System.out.print("정렬 : ");
