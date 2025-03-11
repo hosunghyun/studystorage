@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class OneUntil {
     public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
+        
         System.out.println("입력값:");
         String NK = scr.nextLine();
         String[] data = NK.split(" ");
