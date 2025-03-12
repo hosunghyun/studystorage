@@ -7,6 +7,7 @@ public class OneUntil {
         Scanner scr = new Scanner(System.in);
         
         System.out.println("입력값:");
+        
         String NK = scr.nextLine();
         String[] data = NK.split(" ");
         int N = Integer.parseInt(data[0]);
