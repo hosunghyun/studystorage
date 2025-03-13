@@ -10,6 +10,7 @@ public class OneUntil {
         
         String NK = scr.nextLine();
         String[] data = NK.split(" ");
+        
         int N = Integer.parseInt(data[0]);
         int K = Integer.parseInt(data[1]);
         
