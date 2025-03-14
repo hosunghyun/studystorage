@@ -26,6 +26,7 @@ public class OneUntil {
                 cnt++;
             }
         }
+        
         System.out.println("출력 : " + cnt);
     }
 }
