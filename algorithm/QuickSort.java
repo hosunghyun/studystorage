@@ -27,6 +27,7 @@ class Quick {
 
         // 마지막으로 피벗을 올바른 위치에 배치
         swap(S, i + 1, high);
+        
         return i + 1;  // 피벗이 위치한 인덱스를 반환
     }
 
