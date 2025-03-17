@@ -40,6 +40,7 @@ class Quick {
 public class QuickSort {
     public static void main(String[] args) {
         int[] S = new int[] { 10, 12, 20, 27, 13, 9, 22, 25 };
+        
         Quick quick = new Quick();
         quick.quicksort(S, 0, S.length - 1);
         System.out.print("빠른 정렬 : ");
