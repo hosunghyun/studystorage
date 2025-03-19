@@ -44,6 +44,7 @@ public class QuickSort {
         Quick quick = new Quick();
         
         quick.quicksort(S, 0, S.length - 1);
+        
         System.out.print("빠른 정렬 : ");
         for(int num : S) {
             System.out.print(num + " ");
