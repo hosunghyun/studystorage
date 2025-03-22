@@ -17,6 +17,7 @@ while (start <= end):
         # 잘렸을 때의 떡의 양 계산
         if x > mid:
             total += x -mid
+            
     # 떡의 양이 부족한 경우 더 많이 자르기(왼쪽 부분 탐색)
     if total < m:
         end = mid - 1
