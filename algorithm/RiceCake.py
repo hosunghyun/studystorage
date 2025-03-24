@@ -21,7 +21,6 @@ while (start <= end):
     # 떡의 양이 부족한 경우 더 많이 자르기(왼쪽 부분 탐색)
     if total < m:
         end = mid - 1
-        
     # 떡의 양이 충분한 경우 덜 자르기(오른쪽 부분 탐색)
     else:
         result = mid    # 최대한 덜 자랐을 때가 정답이므로 여기에서 result에 기록
