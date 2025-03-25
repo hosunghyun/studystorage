@@ -3,6 +3,7 @@ public class SelectionSort{
         int[] arr = new int[] {9, 1, 6, 8, 4, 3, 2, 0};
         
         System.out.println("정렬 전 배열");
+        
        	for(int i : arr) {
             System.out.print(i + " ");
         }
