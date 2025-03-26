@@ -24,6 +24,7 @@ public class SelectionSort{
         }
         
         System.out.println("정렬 후 배열");
+        
         for(int i : arr) {
             System.out.print(i + " ");
         }
