@@ -7,6 +7,7 @@ public class SelectionSort{
        	for(int i : arr) {
             System.out.print(i + " ");
         }
+        
         System.out.println();
         
         for(int i = 0; i < arr.length - 1; i++) {
