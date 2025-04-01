@@ -19,6 +19,7 @@ class SequenceSearchs {
 public class SequenceSearch {
     public static void main(String[] args) {
         SequenceSearchs sequenceSearch = new SequenceSearchs();
+        
         int[] S = new int[] {10, 7, 11, 5, 13, 8};  // 배열 S
         int F = 8;  // 찾을 원소
 
