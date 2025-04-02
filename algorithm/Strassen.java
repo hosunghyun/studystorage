@@ -88,6 +88,7 @@ class StrassenMatrixMultiplication {
     // 행렬 뺄셈 함수
     public int[][] subtract(int[][] A, int[][] B) {
         int n = A.length;
+        
         int[][] result = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
