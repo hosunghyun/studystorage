@@ -121,6 +121,7 @@ public class Strassen {
         int[][] result = strassenMatrixMultiplication.strassen(A, B);
         
         System.out.print("쉬트라쎈의 행렬곱셈 : ");
+        
         for(int[] row : result) {
             System.out.print(Arrays.toString(row) + " ");
         }
