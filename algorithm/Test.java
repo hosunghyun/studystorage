@@ -4,6 +4,7 @@ public class Test {
         int x = 11;
         int y = x;
         int a = 0;
+        
         while(y > 0) {
             a += y % 10;
             y = y / 10;
