@@ -9,6 +9,7 @@ public class Test {
             a += y % 10;
             y = y / 10;
         }
+        
         if(x % a == 0) {
             answer = true;
         }
