@@ -17,6 +17,7 @@ public class Test1_1 {
             int[] arr = new int[] {10, 7, 11, 5, 13, 8};
     
             int maxnum = findbyMax(arr);
+            
             System.out.println("최댓값 : " + maxnum);
     }
 }
