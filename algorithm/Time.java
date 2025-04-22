@@ -9,6 +9,7 @@ public class Time {
         int N = scr.nextInt();
         
         int count = 0;
+
         for(int i = 0; i < (N + 1); i++ ) {
             for(int j = 0; j < 60; j++) {
                 for(int k = 0; k < 60; k++) {
