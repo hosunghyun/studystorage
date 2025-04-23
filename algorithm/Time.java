@@ -19,6 +19,7 @@ public class Time {
                 }
             }
         }
+        
         System.out.println(count);
     }
 }
