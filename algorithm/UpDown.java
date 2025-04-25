@@ -7,6 +7,7 @@ public class UpDown {
         for(int i : n) {
             System.out.print(i + " ");
         }
+        
         System.out.println();
         Arrays.sort(n);
         for(int i : n) {
