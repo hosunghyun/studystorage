@@ -11,6 +11,7 @@ public class UpDown {
         System.out.println();
         
         Arrays.sort(n);
+        
         for(int i : n) {
             System.out.print(i + " ");
         }
