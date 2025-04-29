@@ -8,6 +8,7 @@ void myFunction() {
 void myFunction2(int n) {
     printf("second function\n 매개변수 : %d\n", n);
 }
+
 void myFunnc3(int n[5]) {
     n[0] += 1;
     n[1] += 1;
