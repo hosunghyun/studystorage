@@ -16,6 +16,7 @@ void myFunnc3(int n[5]) {
     n[3] += 1;
     n[4] += 1;
 }
+
 int myFunc4(int n) {
     return n + 1;
 }
