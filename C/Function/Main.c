@@ -20,6 +20,7 @@ void myFunnc3(int n[5]) {
 int myFunc4(int n) {
     return n + 1;
 }
+
 int main(void) {
     myFunction();
     myFunction2(10);
