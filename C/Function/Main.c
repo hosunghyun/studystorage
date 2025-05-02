@@ -25,6 +25,7 @@ int main(void) {
     myFunction();
     myFunction2(10);
     int n[5] = { 1, 2, 3, 4, 5 };
+    
     myFunnc3(n);
 
     printf("%d\n", n[0]);
