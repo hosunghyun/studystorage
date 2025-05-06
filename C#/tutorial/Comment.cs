@@ -13,6 +13,7 @@ namespace HelloWorld
             string name = "Kim";    // 이름
             
             Console.WriteLine( name );
+            
             int age = 20;           // 나이
             
             Console.WriteLine( age );
