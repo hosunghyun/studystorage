@@ -7,5 +7,6 @@ int main() {
   
   cout << isCodingFun << "\n";
   cout << isFishTasty;
+  
   return 0;
 }
