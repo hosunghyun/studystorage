@@ -6,5 +6,6 @@ int main() {
 	int myNum = 15;
 	
 	cout << myNum;
+	
 	return 0;
 }
