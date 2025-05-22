@@ -7,6 +7,7 @@ public class Arrlst {
         list.add("Apple");
         list.add("Banana");
         list.add(1, "Orange"); // 인덱스 1에 요소 삽입
+        
         System.out.println(list); // 출력: [Apple, Orange, Banana]
         
         list.remove("Orange");
