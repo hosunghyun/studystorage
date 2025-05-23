@@ -11,6 +11,7 @@ public class Arrlst {
         System.out.println(list); // 출력: [Apple, Orange, Banana]
         
         list.remove("Orange");
+        
         list.remove(0); // 인덱스 0의 요소 제거
         System.out.println(list); // 출력: [Banana]
         
