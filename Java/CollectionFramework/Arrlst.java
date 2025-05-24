@@ -13,6 +13,7 @@ public class Arrlst {
         list.remove("Orange");
         
         list.remove(0); // 인덱스 0의 요소 제거
+        
         System.out.println(list); // 출력: [Banana]
         
         String fruit = list.get(0); // 요소 접근
