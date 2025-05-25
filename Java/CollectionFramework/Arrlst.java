@@ -17,6 +17,7 @@ public class Arrlst {
         System.out.println(list); // 출력: [Banana]
         
         String fruit = list.get(0); // 요소 접근
+        
         System.out.println(fruit); // 출력: Banana
         
         list.set(0, "Mango"); // 요소 수정
