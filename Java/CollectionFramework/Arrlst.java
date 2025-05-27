@@ -22,6 +22,7 @@ public class Arrlst {
         System.out.println(fruit); // 출력: Banana
         
         list.set(0, "Mango"); // 요소 수정
+        
         System.out.println(list); // 출력: [Mango]
     }
 }
