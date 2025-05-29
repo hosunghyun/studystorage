@@ -6,6 +6,7 @@ public class Arrlst {
         ArrayList<String> list = new ArrayList<>();
 
         list.add("Apple");
+        
         list.add("Banana");
         
         list.add(1, "Orange"); // 인덱스 1에 요소 삽입
