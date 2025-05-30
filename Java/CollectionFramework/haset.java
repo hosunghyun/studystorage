@@ -8,6 +8,7 @@ public class haset {
         
         // 요소 추가
         set.add("Apple");
+        
         set.add("Banana");
         set.add("Cherry");
         set.add("Apple"); // 중복된 요소
