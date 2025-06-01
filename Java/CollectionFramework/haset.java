@@ -12,6 +12,7 @@ public class haset {
         set.add("Banana");
         
         set.add("Cherry");
+        
         set.add("Apple"); // 중복된 요소
         
         // 출력
