@@ -14,6 +14,7 @@ public class trset {
 
         
         set.add("Cherry");
+        
         set.add("Apple"); // 중복된 요소, 추가되지 않음
         
         // 출력
