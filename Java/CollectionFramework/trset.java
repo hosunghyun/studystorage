@@ -25,6 +25,7 @@ public class trset {
         
         // 특정 요소 존재 여부 확인
         boolean hasApple = set.contains("Apple"); // true
+        
         boolean hasBanana = set.contains("Banana"); // false
         
         // 전체 요소 출력
