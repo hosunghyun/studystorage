@@ -38,6 +38,7 @@ public class trset {
         
         // 정렬된 집합에서 특정 범위의 요소 조회
         System.out.println("First element: " + set.first());
+        
         System.out.println("Last element: " + set.last());
         System.out.println("HeadSet (before 'Cherry'): " + set.headSet("Cherry"));
         System.out.println("TailSet (from 'Apple'): " + set.tailSet("Apple"));
