@@ -40,6 +40,7 @@ public class trset {
         System.out.println("First element: " + set.first());
         
         System.out.println("Last element: " + set.last());
+        
         System.out.println("HeadSet (before 'Cherry'): " + set.headSet("Cherry"));
         System.out.println("TailSet (from 'Apple'): " + set.tailSet("Apple"));
     }
