@@ -15,6 +15,7 @@ public class vararg {
 
         // 가변인자에 배열을 전달
         int[] nums = {10, 20, 30};
+        
         printNumbers(nums);
     }
 }
