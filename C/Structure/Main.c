@@ -8,6 +8,7 @@ int main(void) {
 	struct myStructure s1;
 
 	s1.myNum = 13;
+	
 	s1.myLetter = 'B';
 
 	printf("My number: %d\n", s1.myNum);
