@@ -11,6 +11,7 @@ public class A {
 }
     public static void main(String[] args) {
         List<Integer> arr = Arrays.asList(1, 2, 3);
+        
         a(arr);
     }
 }
