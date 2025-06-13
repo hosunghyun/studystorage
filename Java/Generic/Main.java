@@ -16,6 +16,7 @@ class Notepad<T> {
 public class Main {
     public static void main(String[] args) {
         Notepad<String> stringBox = new Notepad<>();
+        
         stringBox.setMemo("Hello");
         System.out.println(stringBox.getMemo()); // Hello
         
