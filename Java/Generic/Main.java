@@ -18,6 +18,7 @@ public class Main {
         Notepad<String> stringBox = new Notepad<>();
         
         stringBox.setMemo("Hello");
+        
         System.out.println(stringBox.getMemo()); // Hello
         
         Notepad<Integer> intBox = new Notepad<>();
