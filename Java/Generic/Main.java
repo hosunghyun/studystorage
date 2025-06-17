@@ -24,6 +24,7 @@ public class Main {
         Notepad<Integer> intBox = new Notepad<>();
         
         intBox.setMemo(123);
+        
         System.out.println(intBox.getMemo()); // 123
     }
 }
