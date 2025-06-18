@@ -11,6 +11,7 @@ class Util {
 public class Main2 {
     public static void main(String[] args) {
         Util util = new Util();
+        
         util.prinT(3);
         util.prinT("Hello");
     }
