@@ -13,6 +13,7 @@ public class Main2 {
         Util util = new Util();
         
         util.prinT(3);
+        
         util.prinT("Hello");
     }
 }
