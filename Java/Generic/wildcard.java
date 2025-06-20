@@ -27,6 +27,7 @@ public class wildcard {
     
     public static void main(String[] args) {
         List<Integer> intList = List.of(1, 2, 3);
+        
         printList(intList); // 1 2 3
         
         List<Double> doubleList = List.of(1.1, 2.2, 3.3);
