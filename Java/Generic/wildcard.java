@@ -31,6 +31,7 @@ public class wildcard {
         printList(intList); // 1 2 3
         
         List<Double> doubleList = List.of(1.1, 2.2, 3.3);
+        
         upList(doubleList); // 1.1 2.2 3.3
         
         List<Number> numberList = new ArrayList<>();
