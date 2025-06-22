@@ -35,6 +35,7 @@ public class wildcard {
         upList(doubleList); // 1.1 2.2 3.3
         
         List<Number> numberList = new ArrayList<>();
+        
         numberList.add(1);
         numberList.add(2);
         numberList.add(3);
