@@ -37,6 +37,7 @@ public class wildcard {
         List<Number> numberList = new ArrayList<>();
         
         numberList.add(1);
+        
         numberList.add(2);
         numberList.add(3);
         downList(numberList);
