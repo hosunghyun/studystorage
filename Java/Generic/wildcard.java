@@ -39,6 +39,7 @@ public class wildcard {
         numberList.add(1);
         
         numberList.add(2);
+        
         numberList.add(3);
         downList(numberList);
     }
