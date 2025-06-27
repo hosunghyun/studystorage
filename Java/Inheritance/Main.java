@@ -10,6 +10,7 @@ public class Main {
         // Car[] car = new Volvo[] {}; 와 비슷하다.
         car.add(new Volvo("Hyun", 100, 200));
         
+        
         car.add(new Volvo("Park", 50, 200));
         car.add(new Volvo("Kim", 98, 200));
 
