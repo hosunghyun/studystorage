@@ -12,6 +12,7 @@ public class Main {
         
         
         car.add(new Volvo("Park", 50, 200));
+        
         car.add(new Volvo("Kim", 98, 200));
 
         // forEach문으로 ArrayList를 재정의한 toString()으로 전부 출력
