@@ -18,6 +18,7 @@ public class Volvo extends Car {
     public void run() {
         System.out.println("속도는 : " + speed);
     }
+    
     @Override
     public void printname() {
         System.out.println("주인의 이름은 : " + name);
