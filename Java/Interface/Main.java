@@ -11,6 +11,7 @@ class TV implements ColorTV {
     public void print() {
         System.out.println("흑백티비");
     }
+    
     @Override
     public void colorprint() {
         System.out.println("컬러티비");
