@@ -17,6 +17,7 @@ class TV implements ColorTV {
         System.out.println("컬러티비");
     }
 }
+
 class Main {
     public static void main(String[] args) {
         ColorTV ctv = new TV();
