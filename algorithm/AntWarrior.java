@@ -18,6 +18,7 @@ public class AntWarrior {
 
         // 다이나믹 프로그래밍(Dynamic Programming) 진행(바텀업)
         d[0] = Integer.parseInt(array[0]);
+        
         d[1] = Math.max(Integer.parseInt(array[0]), Integer.parseInt(array[1]));
         
         for(int i = 2; i < n; i++) {
