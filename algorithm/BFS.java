@@ -31,6 +31,7 @@ public class BFS {
 
             while (!queue.isEmpty()) {
                 int node = queue.poll(); // 큐에서 노드 꺼내기
+                
                 System.out.print(node + " ");
 
                 // 인접 노드 방문
