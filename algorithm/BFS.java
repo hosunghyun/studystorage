@@ -27,6 +27,7 @@ public class BFS {
             Queue<Integer> queue = new LinkedList<>(); // 큐 생성
 
             visited[startNode] = true; // 시작 노드 방문 처리
+            
             queue.add(startNode); // 시작 노드를 큐에 추가
 
             while (!queue.isEmpty()) {
