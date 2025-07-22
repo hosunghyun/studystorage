@@ -39,6 +39,7 @@ public class BFS {
                 for (int neighbor : adj[node]) {
                     if (!visited[neighbor]) {
                         visited[neighbor] = true;
+                        
                         queue.add(neighbor);
                     }
                 }
