@@ -51,6 +51,7 @@ public class BFS {
         Graph graph = new Graph(6); // 노드가 5개 (0번 노드는 사용하지 않음)
 
         graph.addEdge(1, 2);
+        
         graph.addEdge(1, 3);
         graph.addEdge(2, 4);
         graph.addEdge(3, 5);
