@@ -55,6 +55,7 @@ public class BFS {
         graph.addEdge(1, 3);
         
         graph.addEdge(2, 4);
+        
         graph.addEdge(3, 5);
 
         System.out.println("BFS 탐색 결과:");
