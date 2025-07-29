@@ -59,6 +59,7 @@ public class BFS {
         graph.addEdge(3, 5);
 
         System.out.println("BFS 탐색 결과:");
+        
         graph.BFS(1); // 1번 노드부터 시작
     }
 }
