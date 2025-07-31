@@ -12,6 +12,7 @@ public class BIgNum {
         String[] arr = NMK.split(" ");
 
         int n = Integer.parseInt(arr[0]);
+        
         int m = Integer.parseInt(arr[1]);
         int k = Integer.parseInt(arr[2]);
 
