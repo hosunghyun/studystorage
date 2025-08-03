@@ -14,6 +14,7 @@ public class BIgNum {
         int n = Integer.parseInt(arr[0]);
         
         int m = Integer.parseInt(arr[1]);
+        
         int k = Integer.parseInt(arr[2]);
 
         String[] arr2 = N.split(" ");
