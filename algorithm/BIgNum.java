@@ -38,6 +38,7 @@ public class BIgNum {
                 if(m == 0) {
                     break;  // m이 0이라면 반복문 탈출
                 }
+                
                 result += first;
                 System.out.print("반복문 안 : " + result);
                 m--;
