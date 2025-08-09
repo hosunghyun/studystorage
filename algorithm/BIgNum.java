@@ -41,6 +41,8 @@ public class BIgNum {
                 
                 result += first;
                 System.out.print("반복문 안 : " + result);
+
+                
                 m--;
                 System.out.println("반복문 안 : " + m);
             }
