@@ -45,6 +45,7 @@ public class BIgNum {
                 m--;
                 System.out.println("반복문 안 : " + m);
             }
+            
             if(m == 0) {
                 break;
             }
