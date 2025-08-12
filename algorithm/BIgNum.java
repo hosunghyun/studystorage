@@ -49,6 +49,7 @@ public class BIgNum {
             if(m == 0) {
                 break;
             }
+            
             result += second;
             System.out.print("반복문 밖 : " + result);
             m--;
