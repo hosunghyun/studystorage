@@ -51,6 +51,7 @@ public class BIgNum {
             }
             
             result += second;
+            
             System.out.print("반복문 밖 : " + result);
             m--;
             System.out.println("반복문 밖 : " + m);
