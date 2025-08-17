@@ -8,6 +8,7 @@ int main(void) {
     int (*pf)(int, int);    // 함수 포인터 정의
 
     pf = add;
+
     result = pf(10, 20);
     printf("%d", result);
 
