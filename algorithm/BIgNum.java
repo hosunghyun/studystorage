@@ -40,6 +40,7 @@ public class BIgNum {
                 }
                 
                 result += first;
+                
                 System.out.print("반복문 안 : " + result);
 
                 m--;
