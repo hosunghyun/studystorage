@@ -3,6 +3,7 @@ package algorithm;
 class Multi {
     public int prod(int u, int v) {
         Long x, y, w, z;
+        
         int n, m;
 
         n = String.valueOf(u).length() + String.valueOf(v).length();
