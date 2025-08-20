@@ -28,6 +28,7 @@ public class BinarySearch {
         BinarySearchs binarySearch = new BinarySearchs();
         
         int[] S = new int[] {5, 7, 8, 10, 11, 13};  // 정렬된 배열 S
+        
         int F = 8;  // 찾을 값
 
         int location = binarySearch.search(S, F);  // 배열 S에서 값 F를 찾기
