@@ -30,6 +30,7 @@ public class BinarySearchRecursion {
         int x = 5;  // 찾으려는 값 x
         
         int location = recursion.bsr(S, x, 0, (S.length - 1));
+        
         System.out.println("x의 위치 : " + location);
     }
 }
