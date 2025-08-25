@@ -18,6 +18,7 @@ public class CardGame {
             // 가장 작은 수 들 중에서 가장 큰 수 찾기
             result = (result < minvalue) ? minvalue : result; 
         }
+        
         System.out.println(result);
     }
 }
