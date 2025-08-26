@@ -8,6 +8,7 @@ class FibonacciSequences {
         } else if (n == 1) {
             return 1;
         }
+        
         return Recursion(n - 1) + Recursion(n - 2);
     }
     
