@@ -37,6 +37,7 @@ class FibonacciSequences {
 public class FibonacciSequence {
     public static void main(String[] args) {
         FibonacciSequences fibonacciSequences = new FibonacciSequences();
+        
         int F = 8;  // 7번째 피보나치 수를 구하자
 
         // 재귀 방식으로 계산
