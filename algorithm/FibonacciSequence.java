@@ -42,6 +42,7 @@ public class FibonacciSequence {
 
         // 재귀 방식으로 계산
         int location = fibonacciSequences.Recursion(F);
+        
         System.out.println("재귀 방식 결과: " + location);
         
         // 반복문 방식으로 계산
