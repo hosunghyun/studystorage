@@ -22,6 +22,7 @@ public class HeapSort {
     // 힙 속성을 유지하는 메서드
     public static void heapify(int[] arr, int n, int i) {
         int largest = i; // 루트 노드
+        
         int left = 2 * i + 1; // 왼쪽 자식 노드
         int right = 2 * i + 2; // 오른쪽 자식 노드
 
