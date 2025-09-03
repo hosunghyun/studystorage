@@ -24,6 +24,7 @@ public class HeapSort {
         int largest = i; // 루트 노드
         
         int left = 2 * i + 1; // 왼쪽 자식 노드
+        
         int right = 2 * i + 2; // 오른쪽 자식 노드
 
         // 왼쪽 자식이 루트보다 크면 largest 갱신
