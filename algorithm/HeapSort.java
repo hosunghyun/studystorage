@@ -47,6 +47,7 @@ public class HeapSort {
     // 두 요소를 교환하는 메서드
     public static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
+        
         arr[i] = arr[j];
         arr[j] = temp;
     }
