@@ -21,6 +21,7 @@ def DFS(x, y):
         dfs(x, y - 1)
         dfs(x + 1, y)
         dfs(x, y + 1)
+        
     return False
 
 result = 0
