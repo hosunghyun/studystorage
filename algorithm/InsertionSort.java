@@ -3,6 +3,7 @@ public class InsertionSort{
         int[] arr = new int[] {31, 25, 12, 22, 11};
         
         System.out.println("정렬 전 배열");
+        
        	for(int i : arr) {
             System.out.print(i + " ");
         }
