@@ -9,6 +9,7 @@ public class Knight {
         String inputData = scanner.nextLine();
         
         int row = Integer.parseInt(inputData.substring(1));
+        
         int column = inputData.charAt(0) - 'a' + 1;
 
         // 나이트의 이동 경로
