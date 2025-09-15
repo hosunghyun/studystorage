@@ -22,6 +22,7 @@ public class Knight {
         // 가능한 이동 경로 계산
         for (int[] step : steps) {
             int nextRow = row + step[0];
+            
             int nextColumn = column + step[1];
             
             // 유효한 위치인지 체크
