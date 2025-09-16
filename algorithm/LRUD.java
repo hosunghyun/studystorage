@@ -7,6 +7,7 @@ public class LRUD {
         Scanner scr = new Scanner(System.in);
 
         System.err.print("지도 크기 N : ");
+        
         int N = scr.nextInt();
         
         scr.nextLine();
