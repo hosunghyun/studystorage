@@ -42,6 +42,7 @@ public class LRUD {
         }
         
         System.out.println(x + " " + y);
+        
         scr.close();
     }
 }
