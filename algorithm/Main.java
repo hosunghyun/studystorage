@@ -15,6 +15,7 @@ class FibonacciSequences {
 public class Main {
     public static void main(String[] args) {
         FibonacciSequences fibonacciSequences = new FibonacciSequences();
+        
         int F = 7;
 
         int location = fibonacciSequences.fibonaccisequence(F);
