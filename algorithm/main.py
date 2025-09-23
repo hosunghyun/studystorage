@@ -10,6 +10,7 @@ dy = [0, 0, -1, 1]
 
 def BFS(x, y):
     queue = deque()
+    
     queue.append((x, y))
     
     while queue:
