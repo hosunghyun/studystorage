@@ -52,6 +52,7 @@ def quick_sort(array, start, end):
         return
     
     pivot = start
+    
     left = start + 1
     right = end
     
