@@ -54,6 +54,7 @@ def quick_sort(array, start, end):
     pivot = start
     
     left = start + 1
+    
     right = end
     
     while left <= right:
