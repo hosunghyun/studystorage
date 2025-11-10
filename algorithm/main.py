@@ -68,6 +68,7 @@ def quick_sort(array, start, end):
             array[right], array[pivot] = array[pivot], array[right]
             
         quick_sort(array, start, right - 1)
+        
         quick_sort(array, right + 1, end)
         
     quick_sort(array, 0, len(array) - 1)
