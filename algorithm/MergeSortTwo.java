@@ -20,7 +20,6 @@ class MergeSort {
     public void merge(int[] array, int low, int mid, int high) {
         // 임시 배열 생성
         int[] temp = new int[high - low + 1];
-        
         int i = low;   // 왼쪽 부분 배열의 시작 인덱스
         int j = mid + 1;  // 오른쪽 부분 배열의 시작 인덱스
         int k = 0;  // temp 배열의 인덱스
