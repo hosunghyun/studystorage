@@ -34,6 +34,7 @@ class MergeSort {
                 temp[k] = array[j];
                 j++;
             }
+            
             k++;
         }
 
