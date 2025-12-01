@@ -33,6 +33,7 @@ class Quick {
 
     public void swap(int[] S, int i, int j) {
         int temp = S[i];
+        
         S[i] = S[j];
         S[j] = temp;
     }
