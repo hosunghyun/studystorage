@@ -35,6 +35,7 @@ class Quick {
         int temp = S[i];
         
         S[i] = S[j];
+        
         S[j] = temp;
     }
 }
