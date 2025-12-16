@@ -9,6 +9,7 @@ class StrassenMatrixMultiplication {
         int mid = n / 2;
 
         int[][][] result = new int[4][mid][mid];
+        
         for (int i = 0; i < mid; i++) {
             for (int j = 0; j < mid; j++) {
                 result[0][i][j] = matrix[i][j]; // A11
