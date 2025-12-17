@@ -18,6 +18,7 @@ class StrassenMatrixMultiplication {
                 result[3][i][j] = matrix[i + mid][j + mid]; // A22
             }
         }
+        
         return result;
     }
 
